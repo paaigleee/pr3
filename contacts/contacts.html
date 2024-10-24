@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fd4b9e52ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header> 
+        <nav class="header" id="up">
+            <div class="header__lodo">
+                <a href="#">
+                    <img src="./icon/logo.png" alt="Frame">
+                </a>
+            </div>
+            <ul class="header__menu">
+                <li class="menu_item"><a href="../frame1.html" class="menu_link">На главную</a></li>
+                <li class="menu_item"><a href="../history/history.html" class="menu_link">История</a></li>
+                <li class="menu_item"><a href="../way/way.html" class="menu_link">Мой путь</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Фотосессии</a>
+                    <ul class="header__submenu">
+                        <li class="menu_link"><a href="../lovestory/lovestory.html">Love story</a></li>
+                        <li class="menu_link"><a href="../kids/kids.html">детская</a></li>
+                        <li class="menu_link"><a href="../fashion/fashion.html">Fashion</a></li>
+                        <li class="menu_link"><a href="../wedding/wedding.html">Свадебная</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item"><a href="../technology/technology.html" class="menu_link">Техника</a></li>
+                <li class="menu_item"><a href="../gallery/gallery.html" class="menu_link">Галерея</a></li>
+                <li class="menu_item"><a href="../contacts/contacts.html" class="menu_link">Контакты</a></li>
+                
+            </ul>
+            <div class="header__social">
+                <a class="header__social_item" href="https://t.me/meeeeeooooooooooooow" class="telegram"><i class="fa-brands fa-telegram fa-xl"></i></a>
+                <a class="header__social_item" href="https://vk.com/paaigleee" class="telegram"><i class="fa-brands fa-vk fa-xl"></i></i></a>
+                <a class="header__social_item" href="https://www.instagram.com/foto.yakovleva/" class="telegram"><i class="fa-brands fa-instagram fa-xl"></i></i></a>
+            </div>
+        </nav>
+    </header>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__photo">
+                    <img src="img/1.jpg" alt="photo">
+                </div>
+                <div class="contact__descr">
+                    <h2 class="contact__title">Свяжитесь со мной</h2>
+                    <div class="divider"></div>
+                    
+                    <div class="contact__text">Любым удобным для вас способом:</div>
+                    <div class="contact__social">
+                        <a href="https://vk.com/paaigleee" class="contact__link">
+                            <img src="icon/vk.svg" alt="VK">
+                        </a>
+                        <a href="https://t.me/meeeeeooooooooooooow" class="contact__link">
+                            <img src="icon/Telegram.svg" alt="telegram">
+                        </a>
+                        <a href="https://www.instagram.com/foto.yakovleva/" class="contact__link">
+                            <img src="icon/Instagram.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="contact__text">Или оставьте ваши данные и я сама вам напишу:</div>
+
+                    <form action="register.php" class="contact__form">
+                        <div class="contact__input">
+                            <input type="text" required name="name" id="name" >
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contact__input">
+                            <input required name="email" id="email" type="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+
+                        <div class="contact__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contact__triggers">
+                            <button type="submit" class=" contact__btn"><b>Отправить сообщение</b></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+
+
+
+
+</body>
+</html>    
